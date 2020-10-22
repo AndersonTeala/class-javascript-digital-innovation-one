@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Giz Coler</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body onload="load()">
+        <header>
+            <div class="upper">
+                <a href="/index.html">SOBRE</a>
+                <a href="/index.html">CONTATO</a>
+            </div>
+        </header>
+        <h1>DELTA DARK</h1>
+        <div class="obrigado">
+            <button type="button" onclick="botao()">Clique aqui</button>
+        <h3 id="obrigado"></h3>
+        </div>
+
+        <div class="redirecionar">
+            <button type="button" onclick="redirecionar()">Clique aqui</button>
+        <h3 id="recirecionar"></h3>
+        </div>
+
+        <div class="mouse">
+            <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+            <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+        </div>
+        
+        <div class="change">
+            <select onchange="funcaoChange(this)">
+                <option value="1">Valor 1</option>
+                <option value="1">Valor 2</option>
+                <option value="1">Valor 3</option>
+            </select>
+        </div>
+
+    </body>
+
+</html>
